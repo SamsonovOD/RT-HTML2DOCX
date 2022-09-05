@@ -1,0 +1,613 @@
+Loaded modules:
+__main__: ZipFile,etree,re
+zipfile: __doc__,io,os
+io: __doc__,__author__,__all__
+_io: 
+abc: __doc__,abstractmethod,abstractclassmethod
+_abc: 
+_py_abc: WeakSet,get_cache_token,ABCMeta
+_weakrefset: ref,__all__,_IterationGuard
+_weakref: 
+os: __doc__,abc,sys
+sys: 
+stat: __doc__,ST_MODE,ST_INO
+_stat: 
+posixpath: __doc__,curdir,pardir
+genericpath: __doc__,os,stat
+re: __doc__,enum,sre_compile
+enum: sys,MappingProxyType,DynamicClassAttribute
+types: __doc__,sys,_f
+functools: __doc__,__all__,reduce
+_functools: 
+collections: __doc__,__all__,_collections_abc
+_collections_abc: __doc__,ABCMeta,abstractmethod
+operator: __doc__,__all__,_abs
+builtins: 
+_operator: 
+keyword: __doc__,__all__,kwlist
+heapq: __doc__,__about__,__all__
+_heapq: 
+doctest: __doc__,__docformat__,__all__
+__future__: __doc__,all_feature_names,__all__
+difflib: __doc__,__all__,_nlargest
+inspect: __doc__,__author__,abc
+dis: __doc__,sys,types
+opcode: __doc__,__all__,stack_effect
+_opcode: 
+argparse: __doc__,__version__,__all__
+gettext: __doc__,locale,os
+locale: __doc__,sys,encodings
+encodings: __doc__,codecs,sys
+codecs: __doc__,builtins,sys
+_codecs: 
+encodings.aliases: __doc__,aliases
+_winapi: 
+encodings.mbcs: __doc__,mbcs_encode,mbcs_decode
+_locale: 
+warnings: __doc__,sys,__all__
+_warnings: 
+linecache: __doc__,functools,sys
+tokenize: __doc__,__author__,__credits__
+itertools: 
+token: __doc__,__all__,ENDMARKER
+tracemalloc: Sequence,Iterable,total_ordering
+collections.abc: __doc__,ABCMeta,abstractmethod
+fnmatch: __doc__,os,posixpath
+pickle: __doc__,FunctionType,dispatch_table
+copyreg: __doc__,__all__,dispatch_table
+struct: __all__,_clearcache,__doc__
+_struct: 
+_compat_pickle: IMPORT_MAPPING,NAME_MAPPING,PYTHON2_EXCEPTIONS
+_pickle: 
+pprint: __doc__,_collections,re
+time: 
+_tracemalloc: 
+traceback: __doc__,collections,itertools
+_bootlocale: __doc__,sys,_locale
+errno: 
+copy: __doc__,types,weakref
+weakref: __doc__,getweakrefcount,getweakrefs
+atexit: 
+gc: 
+textwrap: __doc__,re,__all__
+importlib: __doc__,__all__,_imp
+_imp: 
+importlib._bootstrap: __doc__,_bootstrap_external,_wrap
+importlib._bootstrap_external: __doc__,_CASE_INSENSITIVE_PLATFORMS_STR_KEY,_CASE_INSENSITIVE_PLATFORMS_BYTES_KEY
+importlib.machinery: __doc__,_imp,ModuleSpec
+ast: __doc__,parse,literal_eval
+_ast: 
+pdb: __doc__,os,re
+cmd: __doc__,string,sys
+string: __doc__,__all__,_string
+_string: 
+bdb: __doc__,fnmatch,sys
+reprlib: __doc__,__all__,builtins
+_thread: 
+code: __doc__,sys,traceback
+codeop: __doc__,__future__,_features
+glob: __doc__,os,re
+signal: _signal,_wraps,_IntEnum
+_signal: 
+shlex: __doc__,os,re
+runpy: __doc__,sys,importlib
+importlib.util: __doc__,abc,module_from_spec
+importlib.abc: __doc__,_bootstrap,_bootstrap_external
+contextlib: __doc__,abc,sys
+pkgutil: __doc__,namedtuple,simplegeneric
+zipimport: 
+marshal: 
+pydoc: __doc__,__all__,__author__
+platform: __doc__,__copyright__,__version__
+subprocess: __doc__,sys,_mswindows
+threading: __doc__,_os,_sys
+_collections: 
+_threading_local: __doc__,ref,contextmanager
+msvcrt: 
+select: 
+selectors: __doc__,ABCMeta,abstractmethod
+math: 
+winreg: 
+plistlib: __doc__,__all__,binascii
+binascii: 
+datetime: __doc__,_time,_math
+_datetime: 
+_strptime: __doc__,time,locale
+calendar: __doc__,sys,datetime
+xml: __doc__,__all__
+xml.parsers: __doc__
+xml.parsers.expat: __doc__,sys
+pyexpat: 
+socket: __doc__,_socket,os
+_socket: 
+urllib: 
+urllib.parse: __doc__,re,sys
+unicodedata: 
+tempfile: __doc__,__all__,_functools
+shutil: __doc__,os,sys
+zlib: 
+bz2: __doc__,__all__,__author__
+_compression: __doc__,io,BUFFER_SIZE
+_bz2: 
+lzma: __doc__,__all__,builtins
+_lzma: 
+nt: 
+tarfile: __doc__,version,__author__
+gzip: __doc__,struct,sys
+random: __doc__,_warn,_MethodType
+hashlib: __doc__,__always_supported,algorithms_guaranteed
+_hashlib: 
+logging: __doc__,sys,os
+_sha1: 
+_md5: 
+_sha256: 
+_sha512: 
+_blake2: 
+_sha3: 
+bisect: __doc__,insort_right,bisect_right
+_bisect: 
+_random: 
+tty: __doc__,__all__,IFLAG
+pydoc_data: 
+pydoc_data.topics: topics
+http: IntEnum,__all__,HTTPStatus
+http.server: __doc__,__version__,__all__
+email: __doc__,__all__,message_from_string
+email.parser: __doc__,__all__,StringIO
+email.feedparser: __doc__,__all__,re
+email.errors: __doc__,MessageError,MessageParseError
+email._policybase: __doc__,abc,header
+email.header: __doc__,__all__,re
+email.quoprimime: __doc__,__all__,re
+email.base64mime: __doc__,__all__,b64encode
+base64: __doc__,re,struct
+getopt: __doc__,__all__,os
+email.charset: __all__,partial,email
+email.encoders: __doc__,__all__,_bencode
+quopri: __doc__,__all__,ESCAPE
+email.utils: __doc__,__all__,os
+email._parseaddr: __doc__,__all__,time
+email.message: __doc__,__all__,re
+uu: __doc__,binascii,os
+optparse: __doc__,__version__,__all__
+email._encoded_words: __doc__,re,base64
+email.iterators: __doc__,__all__,sys
+email.generator: __doc__,__all__,re
+email.policy: __doc__,re,sys
+email.headerregistry: __doc__,MappingProxyType,utils
+email._header_value_parser: __doc__,re,sys
+email.contentmanager: binascii,email,quoprimime
+html: __doc__,_re,_html5
+html.entities: __doc__,__all__,name2codepoint
+http.client: __doc__,email,http
+ssl: __doc__,sys,os
+_ssl: 
+mimetypes: __doc__,os,sys
+socketserver: __doc__,__version__,socket
+webbrowser: __doc__,os,shlex
+unittest: __doc__,__all__,__unittest
+unittest.result: __doc__,io,sys
+unittest.util: __doc__,namedtuple,Counter
+unittest.case: __doc__,sys,functools
+unittest.suite: __doc__,sys,case
+unittest.loader: __doc__,os,re
+unittest.main: __doc__,sys,argparse
+unittest.runner: __doc__,sys,time
+unittest.signals: signal,weakref,wraps
+typing: __doc__,abc,abstractmethod
+sre_compile: __doc__,_sre,sre_parse
+_sre: 
+sre_parse: __doc__,MAGIC,MAXREPEAT
+sre_constants: __doc__,MAGIC,MAXREPEAT
+ntpath: __doc__,curdir,pardir
+py_compile: __doc__,enum,importlib
+lxml: __version__,get_include
+lxml.etree: 
+urllib.request: __doc__,base64,bisect
+urllib.error: __doc__,urllib,__all__
+urllib.response: __doc__,tempfile,__all__
+nturl2path: __doc__,url2pathname,pathname2url
+http.cookiejar: __doc__,__all__,copy
+ftplib: __doc__,sys,socket
+netrc: __doc__,os,shlex
+getpass: __doc__,contextlib,io
+PIL: __doc__,_version,__version__
+PIL._version: __version__
+PIL.Image: atexit,builtins,io
+numbers: __doc__,ABCMeta,abstractmethod
+pathlib: fnmatch,functools,io
+PIL.ImageMode: _modes,ModeDescriptor,getmode
+PIL.TiffTags: namedtuple,TagInfo,lookup
+PIL._binary: pack,unpack_from,i8
+PIL._util: os,sys,py36
+PIL._imaging: 
+cffi: __all__,FFI,CDefError
+cffi.api: sys,types,allocate_lock
+cffi.lock: sys,allocate_lock
+_dummy_thread: __doc__,__all__,TIMEOUT_MAX
+cffi.error: FFIError,CDefError,VerificationError
+cffi.model: types,weakref,allocate_lock
+_cffi_backend: 
+cffi.cparser: model,COMMON_TYPES,resolve_common_type
+cffi.commontypes: sys,model,FFIError
+pycparser: __all__,__version__,io
+pycparser.c_parser: re,yacc,c_ast
+pycparser.ply: __version__,__all__
+pycparser.ply.yacc: re,types,sys
+pycparser.ply.lex: __version__,__tabversion__,re
+pycparser.c_ast: sys,_repr,Node
+pycparser.c_lexer: re,sys,lex
+pycparser.plyparser: warnings,Coord,ParseError
+pycparser.ast_transforms: c_ast,fix_switch_cases,_extract_nested_case
+pycparser.yacctab: _tabversion,_lr_method,_lr_signature
+pycparser.lextab: _tabversion,_lextokens,_lexreflags
+cffi.verifier: sys,os,binascii
+cffi.ffiplatform: sys,os,VerificationError
+distutils: __doc__,sys,__version__
+distutils.core: __doc__,os,sys
+distutils.debug: os,DEBUG
+distutils.errors: __doc__,DistutilsError,DistutilsModuleError
+distutils.dist: __doc__,sys,os
+distutils.fancy_getopt: __doc__,sys,string
+distutils.util: __doc__,os,re
+distutils.dep_util: __doc__,os,DistutilsFileError
+distutils.spawn: __doc__,sys,os
+distutils.log: __doc__,DEBUG,INFO
+distutils.sysconfig: __doc__,_imp,os
+_osx_support: __doc__,os,re
+distutils.text_file: __doc__,sys,io
+lib2to3: 
+lib2to3.refactor: __doc__,__author__,io
+lib2to3.pgen2: __doc__
+lib2to3.pgen2.driver: __doc__,__author__,__all__
+lib2to3.pgen2.grammar: __doc__,collections,pickle
+lib2to3.pgen2.token: __doc__,ENDMARKER,NAME
+lib2to3.pgen2.parse: __doc__,token,ParseError
+lib2to3.pgen2.tokenize: __doc__,__author__,__credits__
+lib2to3.pgen2.pgen: grammar,token,tokenize
+lib2to3.fixer_util: __doc__,token,Leaf
+lib2to3.pytree: __doc__,__author__,sys
+lib2to3.pygram: __doc__,os,token
+lib2to3.patcomp: __doc__,__author__,io
+lib2to3.pgen2.literals: __doc__,re,simple_escapes
+lib2to3.btm_matcher: __doc__,__author__,logging
+lib2to3.btm_utils: __doc__,pytree,grammar
+multiprocessing: sys,context,__all__
+multiprocessing.context: os,sys,threading
+multiprocessing.process: __all__,os,sys
+multiprocessing.util: os,itertools,sys
+multiprocessing.reduction: ABCMeta,copyreg,functools
+array: 
+multiprocessing.resource_sharer: os,signal,socket
+multiprocessing.connection: __all__,io,os
+_multiprocessing: 
+hmac: __doc__,_warnings,compare_digest
+xmlrpc: 
+xmlrpc.client: __doc__,base64,sys
+decimal: __doc__,__version__,__libmpdec_version__
+_decimal: 
+_pydecimal: __doc__,__all__,__xname__
+contextvars: Context,ContextVar,Token
+_contextvars: 
+multiprocessing.managers: __all__,sys,threading
+queue: __doc__,threading,deque
+_queue: 
+multiprocessing.pool: __all__,threading,queue
+multiprocessing.dummy: __all__,threading,sys
+multiprocessing.dummy.connection: __all__,Queue,families
+multiprocessing.synchronize: __all__,threading,sys
+multiprocessing.semaphore_tracker: os,signal,sys
+multiprocessing.spawn: os,sys,runpy
+multiprocessing.heap: bisect,mmap,os
+mmap: 
+multiprocessing.queues: __all__,sys,os
+multiprocessing.sharedctypes: ctypes,weakref,heap
+ctypes: __doc__,_os,_sys
+_ctypes: 
+ctypes._endian: sys,__doc__,_os
+multiprocessing.forkserver: errno,os,selectors
+multiprocessing.popen_fork: os,sys,signal
+multiprocessing.popen_spawn_posix: io,os,reduction
+multiprocessing.popen_forkserver: io,os,reduction
+multiprocessing.popen_spawn_win32: os,msvcrt,signal
+distutils.dir_util: __doc__,os,errno
+distutils.file_util: __doc__,os,DistutilsFileError
+distutils.filelist: __doc__,os,re
+configparser: __doc__,MutableMapping,_default_dict
+distutils.cmd: __doc__,sys,os
+distutils.archive_util: __doc__,os,warn
+distutils.command: __doc__,__all__
+distutils.versionpredicate: __doc__,re,distutils
+distutils.version: __doc__,re,Version
+distutils.config: __doc__,os,RawConfigParser
+cgi: __doc__,__version__,StringIO
+distutils.extension: __doc__,os,warnings
+setuptools: __doc__,os,sys
+setuptools._deprecation_warning: SetuptoolsDeprecationWarning,__module__,__qualname__
+setuptools.extern: sys,VendorImporter,names
+setuptools.version: pkg_resources,__version__
+pkg_resources: __doc__,absolute_import,sys
+imp: __doc__,lock_held,acquire_lock
+pkg_resources.extern: sys,VendorImporter,names
+pkg_resources.py31compat: os,errno,sys
+sysconfig: __doc__,os,sys
+setuptools.extension: re,functools,distutils
+setuptools.monkey: __doc__,sys,distutils
+setuptools.dist: __all__,io,sys
+setuptools.depends: sys,imp,marshal
+setuptools.py33compat: dis,array,collections
+setuptools.windows_support: platform,ctypes,windows_only
+setuptools.config: absolute_import,unicode_literals,io
+setuptools.command: __all__,bdist,sys
+distutils.command.bdist: __doc__,os,Command
+setuptools.command.install_scripts: log,orig,os
+distutils.command.install_scripts: __doc__,os,Command
+setuptools.command.easy_install: __doc__,glob,get_platform
+distutils.command.install: __doc__,sys,os
+site: __doc__,sys,os
+_sitebuiltins: __doc__,sys,Quitter
+rlcompleter: __doc__,atexit,builtins
+distutils.command.build_scripts: __doc__,os,re
+setuptools.Command: __all__,bdist,sys
+setuptools.sandbox: os,sys,tempfile
+setuptools.py27compat: __doc__,platform,six
+setuptools.command.setopt: convert_path,log,DistutilsOptionError
+setuptools.archive_util: __doc__,zipfile,tarfile
+setuptools.package_index: __doc__,sys,os
+setuptools.ssl_support: os,socket,atexit
+setuptools.wheel: __doc__,get_platform,email
+setuptools.pep425tags: __doc__,absolute_import,distutils
+setuptools.glibc: absolute_import,ctypes,re
+setuptools.command.egg_info: __doc__,_FileList,DistutilsInternalError
+setuptools.command.sdist: log,orig,os
+distutils.command.sdist: __doc__,os,sys
+setuptools.command.py36compat: os,glob,convert_path
+setuptools.command.bdist_egg: __doc__,DistutilsSetupError,remove_tree
+setuptools.unicode_utils: unicodedata,sys,six
+setuptools.glob: __doc__,os,re
+cffi.vengine_gen: sys,os,types
+cffi.vengine_cpy: sys,imp,model
+cffi.pkgconfig: sys,os,subprocess
+cffi.recompiler: os,sys,io
+cffi.cffi_opcode: VerificationError,CffiOp,format_four_bytes
+distutils.msvc9compiler: __doc__,os,subprocess
+distutils.ccompiler: __doc__,sys,os
+distutils.command.build_ext: __doc__,contextlib,os
+concurrent: 
+concurrent.futures: __doc__,__author__,FIRST_COMPLETED
+concurrent.futures._base: __author__,collections,logging
+concurrent.futures.process: __doc__,__author__,atexit
+distutils._msvccompiler: __doc__,os,shutil
+json: __doc__,__version__,__all__
+json.decoder: __doc__,re,scanner
+json.scanner: __doc__,re,c_make_scanner
+_json: 
+json.encoder: __doc__,re,c_encode_basestring_ascii
+ctypes.util: os,shutil,subprocess
+ctypes.macholib: __doc__,__version__
+ctypes.macholib.dyld: __doc__,os,framework_info
+ctypes.macholib.framework: __doc__,re,__all__
+ctypes.macholib.dylib: __doc__,re,__all__
+ctypes._aix: __doc__,__author__,re
+PIL.BmpImagePlugin: Image,ImageFile,ImagePalette
+PIL.ImageFile: io,struct,sys
+PIL.ImagePalette: array,GimpGradientFile,GimpPaletteFile
+PIL.GimpGradientFile: log,pi,sin
+PIL.GimpPaletteFile: re,o8,GimpPaletteFile
+PIL.ImageColor: re,Image,getrgb
+colorsys: __doc__,__all__,ONE_THIRD
+PIL.PaletteFile: o8,PaletteFile,__module__
+PIL.GifImagePlugin: itertools,os,subprocess
+PIL.ImageChops: Image,constant,duplicate
+PIL.ImageSequence: Iterator,all_frames,__module__
+PIL.JpegImagePlugin: array,io,os
+PIL.TiffImagePlugin: io,itertools,os
+fractions: __doc__,Decimal,math
+PIL.JpegPresets: __doc__,presets
+PIL.MpoImagePlugin: Image,ImageFile,JpegImagePlugin
+PIL.PpmImagePlugin: Image,ImageFile,b_whitespace
+PIL.PngImagePlugin: logging,re,struct
+PIL.PyAccess: logging,sys,FFI
+PIL.ImageFilter: functools,numpy,Filter
+numpy: __doc__,division,absolute_import
+numpy._globals: __doc__,division,absolute_import
+numpy.__config__: __all__,os,sys
+numpy.version: short_version,version,full_version
+numpy._distributor_init: __doc__,os,WinDLL
+numpy.core: division,absolute_import,print_function
+numpy.core.info: __doc__,division,absolute_import
+numpy.core.multiarray: __doc__,functools,sys
+numpy.core.overrides: __doc__,collections,functools
+numpy.core._multiarray_umath: 
+numpy.compat: __doc__,division,absolute_import
+numpy.compat._inspect: __doc__,division,absolute_import
+numpy.compat.py3k: __doc__,division,absolute_import
+numpy.core.umath: __doc__,_multiarray_umath,_UFUNC_API
+numpy.core.numerictypes: __doc__,division,absolute_import
+numpy.core._string_helpers: __doc__,_all_chars,_ascii_upper
+numpy.core._type_aliases: __doc__,warnings,sys
+numpy.core._dtype: __doc__,division,absolute_import
+numpy.core.numeric: division,absolute_import,print_function
+numpy.core._exceptions: __doc__,set_module,_unpack_tuple
+numpy.core._asarray: __doc__,division,absolute_import
+numpy.core._ufunc_config: __doc__,division,absolute_import
+numpy.core.fromnumeric: __doc__,division,absolute_import
+numpy.core._methods: __doc__,division,absolute_import
+numpy.core.arrayprint: __doc__,division,absolute_import
+numpy.core.defchararray: __doc__,division,absolute_import
+numpy.core.records: __doc__,division,absolute_import
+numpy.core.memmap: division,absolute_import,print_function
+numpy.core.function_base: division,absolute_import,print_function
+numpy.core.machar: __doc__,division,absolute_import
+numpy.core.getlimits: __doc__,division,absolute_import
+numpy.core.shape_base: division,absolute_import,print_function
+numpy.core.einsumfunc: __doc__,division,absolute_import
+numpy.core._add_newdocs: __doc__,division,absolute_import
+numpy.core._dtype_ctypes: __doc__,_ctypes,ctypes
+numpy.core._internal: __doc__,division,absolute_import
+numpy._pytesttester: __doc__,division,absolute_import
+numpy.distutils: division,absolute_import,print_function
+numpy.distutils.__version__: division,absolute_import,print_function
+numpy.distutils.ccompiler: division,absolute_import,print_function
+numpy.distutils.log: division,absolute_import,print_function
+numpy.distutils.misc_util: division,absolute_import,print_function
+dummy_threading: __doc__,sys_modules,_dummy_thread
+numpy.distutils.compat: __doc__,division,absolute_import
+numpy.distutils.core: division,absolute_import,print_function
+numpy.distutils.extension: __doc__,division,absolute_import
+numpy.distutils.numpy_distribution: division,absolute_import,print_function
+numpy.distutils.command: __doc__,division,absolute_import
+numpy.distutils.command.config: division,absolute_import,print_function
+distutils.command.config: __doc__,os,re
+numpy.distutils.exec_command: __doc__,division,absolute_import
+numpy.distutils.mingw32ccompiler: __doc__,division,absolute_import
+distutils.cygwinccompiler: __doc__,os,sys
+distutils.unixccompiler: __doc__,os,sys
+distutils.msvccompiler: __doc__,sys,os
+win32api: 
+win32con: WINVER,WM_USER,PY_0U
+numpy.distutils.lib2def: division,absolute_import,print_function
+numpy.distutils.command.autodist: __doc__,division,absolute_import
+numpy.distutils.fcompiler: __doc__,division,absolute_import
+numpy.distutils._shell_utils: __doc__,os,shlex
+pipes: __doc__,re,os
+numpy.distutils.fcompiler.environment: division,absolute_import,print_function
+numpy.distutils.command.config_compiler: division,absolute_import,print_function
+numpy.distutils.command.build: division,absolute_import,print_function
+distutils.command.build: __doc__,sys,os
+numpy.distutils.command.build_py: division,absolute_import,print_function
+distutils.command.build_py: __doc__,os,importlib
+numpy.distutils.command.build_ext: __doc__,division,absolute_import
+numpy.distutils.system_info: __doc__,division,absolute_import
+ConfigParser: __doc__,MutableMapping,_default_dict
+numpy.distutils.cpuinfo: __doc__,division,absolute_import
+numpy.f2py: __doc__,division,absolute_import
+numpy.f2py.f2py2e: __doc__,division,absolute_import
+numpy.f2py.crackfortran: __doc__,division,absolute_import
+fileinput: __doc__,sys,os
+numpy.f2py.__version__: division,absolute_import,print_function
+numpy.f2py.auxfuncs: __doc__,division,absolute_import
+numpy.f2py.cfuncs: __doc__,division,absolute_import
+numpy.f2py.capi_maps: __doc__,division,absolute_import
+numpy.f2py.cb_rules: __doc__,division,absolute_import
+numpy.f2py.rules: __doc__,division,absolute_import
+numpy.f2py.common_rules: __doc__,division,absolute_import
+numpy.f2py.func2subr: __doc__,division,absolute_import
+numpy.f2py.use_rules: __doc__,division,absolute_import
+numpy.f2py.f90mod_rules: __doc__,division,absolute_import
+numpy.distutils.command.build_src: __doc__,division,absolute_import
+numpy.distutils.from_template: __doc__,division,absolute_import
+numpy.distutils.conv_template: __doc__,division,absolute_import
+numpy.f2py.f2py_testing: division,absolute_import,print_function
+numpy.testing: __doc__,division,absolute_import
+numpy.testing._private: 
+numpy.testing._private.utils: __doc__,division,absolute_import
+numpy.lib: division,absolute_import,print_function
+numpy.lib.info: __doc__,division,absolute_import
+numpy.lib.type_check: __doc__,division,absolute_import
+numpy.lib.ufunclike: __doc__,division,absolute_import
+numpy.lib.index_tricks: division,absolute_import,print_function
+numpy.matrixlib: __doc__,division,absolute_import
+numpy.matrixlib.defmatrix: division,absolute_import,print_function
+numpy.linalg: __doc__,division,absolute_import
+numpy.linalg.info: __doc__,division,absolute_import
+numpy.linalg.linalg: __doc__,division,absolute_import
+numpy.lib.twodim_base: __doc__,division,absolute_import
+numpy.linalg.lapack_lite: 
+numpy.linalg._umath_linalg: 
+numpy.dual: __doc__,division,absolute_import
+numpy.fft: __doc__,division,absolute_import
+numpy.fft._pocketfft: __doc__,division,absolute_import
+numpy.fft._pocketfft_internal: 
+numpy.fft.helper: __doc__,division,absolute_import
+numpy.lib.function_base: division,absolute_import,print_function
+numpy.lib.histograms: __doc__,division,absolute_import
+numpy.lib.stride_tricks: __doc__,division,absolute_import
+numpy.lib.mixins: __doc__,division,absolute_import
+numpy.lib.nanfunctions: __doc__,division,absolute_import
+numpy.lib.shape_base: division,absolute_import,print_function
+numpy.lib.scimath: __doc__,division,absolute_import
+numpy.lib.polynomial: __doc__,division,absolute_import
+numpy.lib.utils: division,absolute_import,print_function
+numpy.lib.arraysetops: __doc__,division,absolute_import
+numpy.lib.npyio: division,absolute_import,print_function
+numpy.lib.format: __doc__,division,absolute_import
+numpy.lib._datasource: __doc__,division,absolute_import
+numpy.lib._iotools: __doc__,division,absolute_import
+numpy.ma: __doc__,division,absolute_import
+numpy.ma.core: __doc__,division,absolute_import
+numpy.ma.extras: __doc__,division,absolute_import
+numpy.ma.mrecords: __doc__,division,absolute_import
+numpy.lib.financial: __doc__,division,absolute_import
+numpy.lib.arrayterator: __doc__,division,absolute_import
+numpy.lib.arraypad: __doc__,division,absolute_import
+numpy.lib._version: __doc__,division,absolute_import
+win32pdh: 
+numpy.testing._private.decorators: __doc__,division,absolute_import
+numpy.testing._private.noseclasses: division,absolute_import,print_function
+numpy.testing._private.nosetester: __doc__,division,absolute_import
+numpy.core._multiarray_tests: 
+numpy.testing._private.parameterized: __doc__,re,sys
+numpy.f2py.diagnose: division,absolute_import,print_function
+numpy.distutils.command.build_clib: __doc__,division,absolute_import
+distutils.command.build_clib: __doc__,os,Command
+numpy.distutils.command.build_scripts: __doc__,division,absolute_import
+numpy.distutils.command.sdist: division,absolute_import,print_function
+numpy.distutils.command.install_data: division,absolute_import,print_function
+distutils.command.install_data: __doc__,os,Command
+numpy.distutils.command.install_headers: division,absolute_import,print_function
+distutils.command.install_headers: __doc__,Command,install_headers
+numpy.distutils.command.install: division,absolute_import,print_function
+setuptools.command.install: DistutilsArgError,inspect,glob
+numpy.distutils.command.bdist_rpm: division,absolute_import,print_function
+setuptools.command.bdist_rpm: orig,bdist_rpm,__module__
+distutils.command.bdist_rpm: __doc__,subprocess,sys
+numpy.distutils.command.install_clib: division,absolute_import,print_function
+numpy.distutils.command.develop: __doc__,division,absolute_import
+setuptools.command.develop: convert_path,log,DistutilsError
+setuptools.namespaces: os,log,itertools
+numpy.distutils.command.egg_info: division,absolute_import,print_function
+curses: __doc__,_os,_sys
+curses.has_key: _curses,_capability_names,has_key
+numpy.distutils.npy_pkg_config: division,absolute_import,print_function
+numpy.distutils.unixccompiler: __doc__,division,absolute_import
+numpy.distutils.info: __doc__,division,absolute_import
+numpy.distutils.__config__: __all__,os,sys
+numpy.core.cversions: __doc__,division,absolute_import
+numpy.core.generate_numpy_api: division,print_function,os
+numpy.core.setup: division,print_function,os
+numpy.core.setup_common: division,absolute_import,print_function
+numpy.core.umath_tests: __doc__,division,absolute_import
+numpy.core._umath_tests: 
+numpy.core._aliased_types: 
+numpy.core._dummy: 
+numpy.core._operand_flag_tests: 
+numpy.core._rational_tests: 
+numpy.core._struct_ufunc_tests: 
+numpy.lib.recfunctions: __doc__,division,absolute_import
+numpy.lib.setup: division,print_function,configuration
+numpy.lib.user_array: __doc__,division,absolute_import
+numpy.polynomial: __doc__,division,absolute_import
+numpy.polynomial.polynomial: __doc__,division,absolute_import
+numpy.polynomial.polyutils: __doc__,division,absolute_import
+numpy.polynomial._polybase: __doc__,division,absolute_import
+numpy.polynomial.chebyshev: __doc__,division,absolute_import
+numpy.polynomial.legendre: __doc__,division,absolute_import
+numpy.polynomial.hermite: __doc__,division,absolute_import
+numpy.polynomial.hermite_e: __doc__,division,absolute_import
+numpy.polynomial.laguerre: __doc__,division,absolute_import
+numpy.random: __doc__,division,absolute_import
+numpy.random._pickle: RandomState,Philox,PCG64
+numpy.random.mtrand: 
+numpy.random.philox: 
+numpy.random.pcg64: 
+numpy.random.sfc64: 
+numpy.random.generator: 
+numpy.random.mt19937: 
+numpy.random.common: 
+numpy.random.bounded_integers: 
+numpy.random.bit_generator: 
+numpy.ctypeslib: __doc__,division,absolute_import
+numpy.matrixlib.setup: division,print_function,configuration
+PIL.ImageQt: sys,BytesIO,Image
+PIL.ImageShow: os,shutil,subprocess
